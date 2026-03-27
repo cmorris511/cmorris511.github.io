@@ -1,0 +1,113 @@
+/* Body */
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #93C0A4; /* soft green background */
+    color: #495D63; /* dark muted teal text */
+    margin: 20px;
+}
+
+/* Headings */
+h1 {
+    font-family: 'Pacifico', cursive;
+    color: #495D63; /* dark teal for main heading */
+    text-align: center;
+    font-size: 3em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-family: 'Georgia', sans-serif;
+    color: #495D63; /* dark teal for secondary headings */
+    margin-top: 30px;
+    text-align: center;
+}
+
+h3, h4, h5 {
+    font-family: 'Georgia', serif;
+    color: #495D63; /* consistent heading color */
+}
+
+/* Boxes */
+.box {
+    background-color: #DE9151; /* warm orange main boxes */
+    padding: 20px;
+    border: 2px solid #BC5D2E; /* medium brown-orange border */
+    border-radius: 10px;
+    text-align: center;
+    max-width: 300px;
+    box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+/* Paragraphs inside boxes */
+p {
+    background-color: #93C0A4; /* soft green for inner paragraphs */
+    padding: 15px;
+    border: 2px solid #495D63; /* dark teal border for contrast */
+    border-radius: 5px;
+}
+
+/* Links */
+a {
+    color: #581502; /* bold red links */
+    font-weight: bold;
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+/* Profile + Bio container */
+.bio-container {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.bio-container .box {
+    flex: 1 1 300px;
+    max-width: 400px;
+    margin: 0; /* bio box centered via flex */
+}
+
+/* Circular profile image */
+.profile-pic img {
+    width: 400px; /* smaller circle for balance */
+    height: 400px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 3px solid #000000; /* soft green border */
+}
+
+/* Topic boxes side by side */
+.topic-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.topic-container .box {
+    flex: 1 1 250px;
+    margin: 0;
+}
+
+/* Images elsewhere */
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 10px;
+    margin: 20px auto;
+}
+
+/* Center Top 5 Games box */
+.top5-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+}
+.top5-container .box {
+    border: 2px solid #BC5D2E; /* match other boxes */
+}
